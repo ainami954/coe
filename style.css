@@ -65,6 +65,7 @@ a:focus-visible { outline: 2px solid var(--ink-strong); outline-offset: 3px; }
 }
 .hero-text { position: relative; z-index: 1; padding-bottom: 8px; }
 .hero-photo {
+  width: 100%; height: auto; object-fit: cover;
   aspect-ratio: 4 / 3; border-radius: 4px;
 }
 .wave-block { position: relative; margin-top: 96px; background: var(--pink); }
